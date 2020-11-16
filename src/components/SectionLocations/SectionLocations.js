@@ -51,19 +51,19 @@ const SectionLocations = props => {
       </div>
       <div className={css.locations}>
         {locationLink(
-          'New York',
+          'Washington, DC',
           nyImage,
-          '?address=New%20York%20City%2C%20New%20York%2C%20USA&bounds=40.917576401307%2C-73.7008392055224%2C40.477399%2C-74.2590879797556'
+          '?address=Washington%2C%20District%20of%20Columbia%2C%20United%20States&bounds=38.99555093%2C-76.909391%2C38.79155738%2C-77.1197609567342'
         )}
         {locationLink(
-          'Los Angeles',
+          'Virginia',
           laImage,
-          '?address=Los%20Angeles%2C%20California%2C%20USA&bounds=34.161440999758%2C-118.121305008073%2C33.9018913203336%2C-118.521456965901'
+          '?address=Fairfax%2C%20Virginia%2C%20United%20States&bounds=38.9073900165744%2C-77.2261649995047%2C38.7946051863125%2C-77.417273947782'
         )}
         {locationLink(
-          'San Francisco',
+          'Maryland',
           sfImage,
-          '?address=San%20Francisco%2C%20California%2C%20USA&bounds=37.8324430069081%2C-122.354995082683%2C37.6044780500533%2C-122.517910874663'
+          '?address=Rockville%2C%20Maryland%2C%20United%20States&bounds=39.1548477053527%2C-77.0722219881951%2C39.0224521126942%2C-77.2522550037389'
         )}
       </div>
     </div>

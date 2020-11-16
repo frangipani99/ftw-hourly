@@ -9,12 +9,12 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 export default [
   {
-    id: 'default-new-york',
+    id: 'default-washington-dc',
     predictionPlace: {
-      address: 'New York City, New York, USA',
+      address: 'Washington, DC, USA',
       bounds: new LatLngBounds(
-        new LatLng(40.917576401307, -73.7008392055224),
-        new LatLng(40.477399, -74.2590879797556)
+        new LatLng(38.995261, -77.041239),
+        new LatLng(38.819308, -77.009520)
       ),
     },
   },
