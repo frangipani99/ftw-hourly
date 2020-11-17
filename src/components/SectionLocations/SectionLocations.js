@@ -8,9 +8,9 @@ import { NamedLink } from '../../components';
 
 import css from './SectionLocations.css';
 
-import nyImage from './images/ny-yogi.jpg';
-import laImage from './images/la-yogi.jpg';
-import sfImage from './images/sf-yogi.jpg';
+import dcImage from './images/dc-cita.jpg';
+import vaImage from './images/va-cita.jpg';
+import mdImage from './images/md-cita.jpg';
 
 class LocationImage extends Component {
   render() {
@@ -52,17 +52,17 @@ const SectionLocations = props => {
       <div className={css.locations}>
         {locationLink(
           'Washington, DC',
-          nyImage,
+          dcImage,
           '?address=Washington%2C%20District%20of%20Columbia%2C%20United%20States&bounds=38.99555093%2C-76.909391%2C38.79155738%2C-77.1197609567342'
         )}
         {locationLink(
           'Virginia',
-          laImage,
+          vaImage,
           '?address=Fairfax%2C%20Virginia%2C%20United%20States&bounds=38.9073900165744%2C-77.2261649995047%2C38.7946051863125%2C-77.417273947782'
         )}
         {locationLink(
           'Maryland',
-          sfImage,
+          mdImage,
           '?address=Rockville%2C%20Maryland%2C%20United%20States&bounds=39.1548477053527%2C-77.0722219881951%2C39.0224521126942%2C-77.2522550037389'
         )}
       </div>
